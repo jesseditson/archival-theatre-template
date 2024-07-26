@@ -2,7 +2,8 @@
 
 [site]
 name = "string"
-
-[section]
-name = "string"
-body = "markdown"
+home_title = "string"
+description = "string"
+author = "string"
+video_url = "string"
+video = "video"
