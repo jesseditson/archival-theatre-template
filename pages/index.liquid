@@ -6,7 +6,7 @@
 
 <main class="main-container">
   <section id="video-section" class="video-container">
-    {% if objects.site.video.url != "" %}
+    {% if objects.site.video.url %}
       <video
         crossOrigin="anonymous"
         id="myVideo"
@@ -25,5 +25,5 @@
 </main>
 
 <footer>
-  <p>&copy; 2024 Your Name Here. All rights reserved.</p>
+  <p>&copy; 2024 {{ objects.site.copyright_name }}. All rights reserved.</p>
 </footer>
